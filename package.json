@@ -1,0 +1,24 @@
+{
+  "name": "nosql-fitness-tracker",
+  "version": "1.0.0",
+  "description": "A fitness app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roxonus/NoSql-Fitness-Tracker.git"
+  },
+  "keywords": [
+    "workout",
+    "tracker",
+    "fitness"
+  ],
+  "author": "Douglas Mitchell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roxonus/NoSql-Fitness-Tracker/issues"
+  },
+  "homepage": "https://github.com/roxonus/NoSql-Fitness-Tracker#readme"
+}
