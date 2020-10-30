@@ -1,24 +1,19 @@
 {
-  "name": "nosql-fitness-tracker",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "A fitness app",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/roxonus/NoSql-Fitness-Tracker.git"
-  },
-  "keywords": [
-    "workout",
-    "tracker",
-    "fitness"
-  ],
-  "author": "Douglas Mitchell",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/roxonus/NoSql-Fitness-Tracker/issues"
-  },
-  "homepage": "https://github.com/roxonus/NoSql-Fitness-Tracker#readme"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  }
 }
